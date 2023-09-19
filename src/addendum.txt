@@ -1,0 +1,7 @@
+<html> - Defines the root of an HTML document 
+<body> - Contains all the visible content within an HTML document 
+<h1> - Defines a top level heading 
+<h2> - Defines a second level heading 
+<article> - Defines independent, self-contained content
+<p> - Defines a paragraph 
+<b> - Defines bold text 

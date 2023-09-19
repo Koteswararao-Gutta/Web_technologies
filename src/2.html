@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>A Hybrid Approach for Detecting Cyberbullying on Social Media Platform using Machine Learning Algorithms</h1>
+
+<h1><h1>By Koteswararao Gutta and Burra Sai Krishna Bharadwaj</h1></h1>
+
+<article>
+  <h2>Abstract</h2>
+  <p>Cyberbullying is a growing concern on social media platforms, where users can hide behind anonymity and engage in harmful behavior. Mainly we study,  propose a hybrid technique for identifying cyberbullying using various different algorithms. We evaluate the performance of 11 different algorithms, including Logistic Regression, MLP Classifier, SGD Classifier, K-Nearest Neighbors Classifier, Multinomial Naive Bayes, and Bagging Classifier. Our experiments show that Logistic Regression and SGD Classifier achieve the highest accuracy of 90.72% and 90.66% respectively, while Naive Bayes has the lowest accuracy of 56.63%. Our hybrid approach combines multiple machine learning algorithms to increasing precision and robustness of identifying cyberbullying. use a feature extraction technique to take the text input and extract pertinent characteristics, after which to train the machine learning models using these features. Our results demonstrate that machine learning algorithms can effectively detect cyberbullying on social media platforms, and our hybrid approach can provide a more comprehensive and accurate solution for identifying and preventing cyberbullying incidents.</p>
+</article>
+
+<article>
+  <h2>Introduction</h2>
+  <p>As social media usage continues to rise, so does the prevalence of cyberbullying - a form of online harassment that can have devastating effects on its victims. Detecting cyberbullying on such a vast platform can be a challenging task, as it requires distinguishing between derogatory, provocative, or sensitive messages from genuine conversations. Machine learning techniques have been used more frequently in recent years to automate this process, but they are not without their limitations. False detections are still a common occurrence, and it can be challenging to distinguish between general profanity and hate speech. Certainly. One real example of cyberbullying that received widespread attention is the case of Kangana Ranaut, an actress and comedian who starred in the 2016 all-female Ghostbusters film. Kangana was the target of a coordinated campaign of harassment on Twitter, which included racist and sexist insults, as well as the posting of her personal information and explicit photos.
+  Kangana received a barrage of abusive tweets, causing her to temporarily leave Twitter due to the overwhelming negativity. The cyberbullying campaign against her sparked widespread outrage and led to a discussion about the toxicity of social media and the need to take action to prevent cyberbullying. In this case, Kangana Ranaut is the victim of cyberbullying. The abusive tweets and messages sent to her caused her emotional distress and anxiety. The perpetrators of the cyberbullying campaign used Twitter as a platform to harass and intimidate Kangana, causing her to feel unsafe and attacked. The campaign also had a negative impact on the broader community, as it highlighted the need for greater awareness and action to prevent cyberbullying. Overall, the case of Kangana Ranaut demonstrates the harmful effects of cyberbullying and the need for individuals, venues for social media and society at large to take steps to prevent it. It is important to recognize that Cyberbullying is a significant issue that can negatively impact a victim's mental health and general wellbeing. Regardless of age, gender, or background, anyone can fall victim to cyberbullying on social media, messaging apps, or online forums. It is important for both individuals and organizations to take proactive steps to prevent cyberbullying and support those who have been affected by it. This can involve promoting responsible online behavior and safety, promptly reporting instances of cyberbullying, and providing resources such as counseling for those who have experienced emotional distress or anxiety as a result of it.
+ 	     In order to overcome these difficulties, we provide a hybrid method for identifying cyberbullying in this research article. Our strategy involves leveraging a manually annotated open-source dataset to apply several supervised classification techniques to user-provided inputs. We conduct a systematic assessment of the literature on cyberbullying detection methods, looking at techniques for identifying hate speech in social media while separating it from other types of vulgarity. By utilizing different algorithms, For this purpose, we seek to establish lexical baselines. Our hybrid approach aims to increase the precision and effectiveness of cyberbullying identification and minimize the risk of false detections. By identifying and addressing the shortcomings of current approaches. 
+</p>
+  
+</article>
+
+<article>
+  <h2>Literature survey</h2>
+  <p>IoT has a multidisciplinary vision to provide its beneft to several domains such as 
+environmental, industrial, public/private, medical, transportation etc. Diferent 
+researchers have explained the IoT diferently with respect to specifc interests and 
+aspects. Te potential and power of IoT can be seen in several application domains. 
+Figure 2 illustrates few of the application domains of IoTs potentials.
+Various important IoT projects have taken charge over the market in last few years. 
+Some of the important IoT projects that have captured most of the market are shown 
+in Fig. 3. In Fig. 3, a global distribution of these IoT projects is shown among American, European and Asia/Pacifc region. It can be seen that American continent are 
+contributing more in the health care and smart supply chain projects whereas contribution of European continent is more in the smart city projects .t is evident 
+that industry, smart city, smart energy and smart vehicle based IoT projects have a big 
+market share in comparison to others.
+Smart city is one of the trendy application areas of IoT that incorporates smart homes 
+as well. Smart home consists of IoT enabled home appliances, air-conditioning/heating system, television, audio/video streaming devices, and security systems which are 
+communicating with each other in order to provide best comfort, security and reduced 
+energy consumption. All this communication takes place through IoT based central 
+control unit using Internet. Te concept of smart city gained popularity in the last decade and attracted a lot of research activities [9]. Te smart home business economy is 
+about to cross the 100 billion dollars by 2022 [10]. Smart home does not only provide 
+the in-house comfort but also benefts the house owner in cost cutting in several aspects 
+i.e. low energy consumption will results in comparatively lower electricity bill. Besides 
+smart homes, another category that comes within smart city is smart vehicles. Modern 
+cars are equipped with intelligent devices and sensors that control most of the components from the headlights of the car to the engine [11].[8]..</p>
+  
+</article>
+
+<article>
+  <h2>IoT architecture and technologies</h2>
+  <p>e IoT architecture consists of fve important layers that defnes all the functionalities of IoT systems. Tese layers are perception layer, network layer, middleware 
+layer, application layer, business layer. At the bottom of IoT architecture, perception 
+layer exists that consists of physical devices i.e. sensors, RFID chips, barcodes etc. 
+and other physical objects connected in IoT network. Tese devices collects information in order to deliver it to the network layer. Network layer works as a transmission medium to deliver the information from perception layer to the information 
+processing system. Tis transmission of information may use any wired/wireless 
+medium along with 3G/4G, Wi-Fi, Bluetooth etc. Next level layer is known as middleware layer. Te main task of this layer is to process the information received from 
+the network layer and make decisions based on the results achieved from ubiquitous 
+computing. Next, this processed information is used by application layer for global 
+device management. On the top of the architecture, there is a business layer which 
+control the overall IoT system, its applications and services. Te business layer visualizes the information and statistics received from the application layer and further 
+used this knowledge to plan future targets and strategies. Furthermore, the IoT architectures can be modifed according to the need and application domain [19, 20, 37]. 
+Besides layered framework, IoT system consists of several functional blocks that supports various IoT activities such as sensing mechanism, authentication and identifcation, control and management [38]. Figure 6 illustrates such functional blocks of IoT 
+architecture.
+Tere are several important functional blocks responsible for I/O operations, connectivity issues, processing, audio/video monitoring and storage management. All these 
+functional block together incorporates an efcient IoT system which are important for 
+optimum performance. Although, there are several reference architectures proposed 
+with the technical specifcations, but these are still far from the standard architecture 
+that is suitable for global IoT [39]. Terefore, a suitable architecture is still needsvk to be 
+designed that could satisfy the global IoT needs. Te generic working structure of IoT 
+system is shown in Fig. 7. Figure 7 shows a dependency of IoT on particular application 
+parameters. IoT gateways have an important role in IoT communication as it allows connectivity between IoT servers and IoT devices related to several applications [40]..</p>
+  
+</article>
+
+<article>
+  <h2>Conclusions</h2>
+  <p>Recent advancements in IoT have drawn attention of researchers and developers 
+worldwide. IoT developers and researchers are working together to extend the technology on large scale and to beneft the society to the highest possible level. However, 
+improvements are possible only if we consider the various issues and shortcomings in 
+the present technical approaches. In this survey article, we presented several issues 
+and challenges that IoT developer must take into account to develop an improved 
+model. Also, important application areas of IoT is also discussed where IoT developers and researchers are engaged. As IoT is not only providing services but also 
+Kumar et al. J Big Data (2019) 6:111 Page 17 of 21
+generates a huge amount of data. Hence, the importance of big data analytics is also 
+discussed which can provide accurate decisions that could be utilized to develop an 
+improved IoT system..</p>
+</article>
+
+<article>
+  <h2>References</h2>
+  <p>1. Sfar AR, Zied C, Challal Y. A systematic and cognitive vision for IoT security: a case study of military live simulation 
+and security challenges. In: Proc. 2017 international conference on smart, monitored and controlled cities (SM2C), 
+Sfax, Tunisia, 17–19 Feb. 2017. https://doi.org/10.1109/sm2c.2017.8071828.
+
+2. Gatsis K, Pappas GJ. Wireless control for the IoT: power spectrum and security challenges. In: Proc. 2017 IEEE/ACM 
+second international conference on internet-of-things design and implementation (IoTDI), Pittsburg, PA, USA, 
+18–21 April 2017. INSPEC Accession Number: 16964293.
+
+3. Zhou J, Cap Z, Dong X, Vasilakos AV. Security and privacy for cloud-based IoT: challenges. IEEE Commun Mag. 
+2017;55(1):26–33. https://doi.org/10.1109/MCOM.2017.1600363CM.
+
+4. Sfar AR, Natalizio E, Challal Y, Chtourou Z. A roadmap for security challenges in the internet of things. Digit Commun Netw. 2018;4(1):118–37.
+
+5. Minoli D, Sohraby K, Kouns J. IoT security (IoTSec) considerations, requirements, and architectures. In: Proc. 14th 
+IEEE annual consumer communications & netw.</p>
+</article>
+
+</body>
+</html>
