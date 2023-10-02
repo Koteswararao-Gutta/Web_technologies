@@ -1,13 +1,48 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My web page</title>
-    </head>
-    <body>
-        <h1>Hello, world!</h1>
-        <p>This is 3rd homework</p>
-        <p>It contains a 
-             <strong>main heading</strong> and <em> paragraph </em>.
-        </p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Font Delivery</title>
+    <style>
+        /* Add some basic CSS for readability */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        /* Add the @font-face rule to specify the font source */
+        @font-face {
+            font-family: 'UniqueFont'; /* Name your font */
+            src: url('uniquefont.woff2') format('woff2'); /* Specify the font file path and format */
+        }
+
+        /* Use the unique font for the text */
+        .unique-text {
+            font-family: 'UniqueFont', sans-serif;
+            font-size: 24px; /* Adjust the font size as needed */
+        }
+    </style>
+</head>
+<body>
+    <h1>Web Font Delivery</h1>
+    <p>
+        Web fonts are delivered to the client (browser) through a process called "web font embedding." When a web page is loaded, the browser sends a request to the web server for the HTML, CSS, JavaScript, and other assets required to render the page. If the page specifies custom fonts, the browser also requests these fonts.
+    </p>
+    <p>
+        One common method to deliver custom fonts is by using the CSS <code>@font-face</code> rule. This rule allows you to specify the source of the font file and give it a name that can be used in your CSS styles. The browser then downloads the font file and uses it to render the text on the page. This ensures that the text appears as intended, even if the user doesn't have the font installed on their computer.
+    </p>
+    <p>
+        In this example, we'll demonstrate the delivery of a unique and somewhat "ridiculous" font to your browser. We'll use the <code>@font-face</code> rule to specify the font source and apply it to our text.
+    </p>
+
+    <!-- Use the unique font for the text -->
+    <p>
+        Here's some text that uses our unique font:
+        <span class="unique-text">This text is styled with the unique font!</span>
+    </p>
+
+    <!-- You will need to upload 'uniquefont.woff2' to your web server for this to work -->
+
+</body>
 </html>
