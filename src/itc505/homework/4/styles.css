@@ -1,43 +1,46 @@
-/* Apply a basic style to the body */
+/* Set font styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
-/* Style the h1 elements for the title and authors */
+h1, h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Set heading and paragraph styles */
 h1 {
-    font-family: "Helvetica Neue", sans-serif;
-    font-size: 28px;
-    font-weight: bold;
-    color: #333;
-    margin: 20px 0;
-}
-
-/* Style the h2 elements for section headings */
-h2 {
-    font-family: "Helvetica Neue", sans-serif;
     font-size: 24px;
-    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+h2 {
+    font-size: 18px;
     color: #666;
-    margin: 20px 0;
+    margin-top: 20px;
 }
 
-/* Style the paragraph text */
 p {
-    font-family: "Arial", sans-serif;
     font-size: 16px;
-    color: #444;
-    margin: 10px 0;
+    color: #555;
+    line-height: 1.5;
 }
 
-/* Style links */
+/* Add some margin and padding */
+article {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Set link styles */
 a {
-    color: #0077cc;
+    color: #0077b3;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
-
