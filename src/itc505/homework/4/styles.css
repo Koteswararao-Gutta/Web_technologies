@@ -1,1 +1,43 @@
+/* Apply a basic style to the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the h1 elements for the title and authors */
+h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Style the h2 elements for section headings */
+h2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+    margin: 20px 0;
+}
+
+/* Style the paragraph text */
+p {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    color: #444;
+    margin: 10px 0;
+}
+
+/* Style links */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
