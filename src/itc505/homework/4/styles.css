@@ -51,9 +51,6 @@ a:hover {
 }
 /* Styles for the Addendum section */
 #section {
-    background-image: url('Cyber_S.jpg'); /* Add your background image path */
-    background-size: cover;
-    background-repeat: no-repeat;
     color: #1e90ff; /* Text color for better contrast with the background image */
     padding: 20px;
     margin: 20px 0;
