@@ -50,19 +50,19 @@ a:hover {
     text-decoration: none;
 }
 /* Styles for the Addendum section */
-#section {
+#addendum {
     color: #1e90ff; /* Text color for better contrast with the background image */
     padding: 20px;
     margin: 20px 0;
 }
 
-#section h2 {
+#addendum h2 {
     font-size: 24px;
     color: #FF5733; /* Text color for headings in the addendum */
     margin-top: 20px;
 }
 
-#section p {
+#addendum p {
     font-size: 18px;
     color: #555; /* Text color for paragraphs in the addendum */
     line-height: 1.6;
