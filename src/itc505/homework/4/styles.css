@@ -49,3 +49,24 @@ a {
 a:hover {
     text-decoration: none;
 }
+/* Styles for the Addendum section */
+#section {
+    background-image: url('Cyber_S.jpg'); /* Add your background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff; /* Text color for better contrast with the background image */
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#section h2 {
+    font-size: 24px;
+    color: #fff; /* Text color for headings in the addendum */
+    margin-top: 20px;
+}
+
+#section p {
+    font-size: 18px;
+    color: #fff; /* Text color for paragraphs in the addendum */
+    line-height: 1.6;
+}
