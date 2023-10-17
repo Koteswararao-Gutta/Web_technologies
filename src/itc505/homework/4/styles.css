@@ -1,9 +1,12 @@
 /* Set font styles */
 body {
-    background-image: Cyber_S.jpg;
     font-family: "Roboto", Arial, sans-serif;
     font-size: 16px;
     color: #333;
+    background-image: url('Cyber_S.jpg'); /* Add the background image */
+    background-size: cover; /* Optional: Adjust background size */
+    background-repeat: no-repeat; /* Optional: Prevent background from repeating */
+
 }
 
 h1, h2 {
