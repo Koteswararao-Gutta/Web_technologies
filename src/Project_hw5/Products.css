@@ -1,0 +1,112 @@
+/* Reset some default styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px;
+  text-align: left;
+}
+
+nav {
+  background-color: #DCDCDC;
+  padding:3px;
+  display: flex; /* Use Flexbox for the navigation bar */
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 5;
+  padding: 5;
+  display: flex; /* Make the list items flex containers */
+}
+
+nav li {
+  margin-right: 20px; /* Add some spacing between navigation items */
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+/* Main Section Styles */
+main {
+  padding: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Display products in three columns */
+  gap: 20px; /* Gap between products */
+}
+
+.product {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.product p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 20px;
+}
+
+/* Heading Styles */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph Styles */
+p {
+  font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+}
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .product {
+    width: 100%; /* On smaller screens, make each product occupy the full width */
+  }
+}

@@ -1,0 +1,107 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px;
+  text-align: left;
+}
+
+/* Navigation Styles */
+header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px;
+  text-align: left;
+}
+
+nav {
+  background-color: #DCDCDC;
+  padding:3px;
+  display: flex; /* Use Flexbox for the navigation bar */
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 5;
+  padding: 5;
+  display: flex; /* Make the list items flex containers */
+}
+
+nav li {
+  margin-right: 20px; /* Add some spacing between navigation items */
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+
+
+main {
+  padding: 0px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  background-color : ;
+  padding: 0px;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  width: 50%;
+  text-align: center;
+  z-index: 1;
+}
+
+
+nav {
+  z-index: 1;
+}
+
+footer {
+  z-index: 1;
+}
+
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
