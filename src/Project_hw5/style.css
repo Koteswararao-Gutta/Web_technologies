@@ -50,12 +50,12 @@ main {
 
 .text-overlay {
   position: absolute;
-  top: 65%;
-  left: 30%;
+  top: 37%;
+  left: 27%;
   background-color : ;
   padding: 0px;
   transform: translate(-50%, -50%);
-  font-size: 35px;
+  font-size: 20px;
   width: 50%;
   text-align: center;
   z-index: 1;
@@ -100,7 +100,7 @@ footer {
     display: flex;
     justify-content: space-around;
   }
-  .text-overlay {
+ .text-overlay {
 	 
 	 font-size: 40px;
  }
