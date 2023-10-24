@@ -100,7 +100,7 @@ footer {
     display: flex;
     justify-content: space-around;
   }
-.text-overlay {
+text-overlay {
 	 width: 100%;
  }
   main {
