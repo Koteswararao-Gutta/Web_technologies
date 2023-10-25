@@ -105,7 +105,9 @@ footer {
     display: flex;
     justify-content: space-around;
   }
-
+.products{
+  width: 100%;
+}
   .product {
     width: 100%; /* On smaller screens, make each product occupy the full width */
   }
