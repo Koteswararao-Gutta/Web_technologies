@@ -43,7 +43,9 @@ nav a {
   text-decoration: none;
   color: #000000;
 }
-
+nav ul li {
+	background-color: lightgrey;
+}
 
 main {
   padding: 0px;
@@ -104,6 +106,9 @@ footer {
     width: 70%;
     background-color: none;
   }
+nav ul li {
+	background-color: lightgrey;
+}
  .text-overlay {
 	 
 	 font-size: 40px;
