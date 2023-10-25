@@ -102,6 +102,9 @@ footer {
   nav {
     display: flex;
     justify-content: space-around;
+    background-color: lightgrey;
+  }
+  nav ul {
     float: left;
     width: 100%;
     background-color: lightgrey;
