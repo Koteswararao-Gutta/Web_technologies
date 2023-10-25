@@ -25,6 +25,8 @@ nav {
   padding:3px;
   display: flex; /* Use Flexbox for the navigation bar */
   justify-content: space-between;
+  float: right;
+  width: 25%;
 }
 
 nav ul {
@@ -99,6 +101,8 @@ footer {
   nav {
     display: flex;
     justify-content: space-around;
+    float: none;
+    width: 100%;
   }
  .text-overlay {
 	 
