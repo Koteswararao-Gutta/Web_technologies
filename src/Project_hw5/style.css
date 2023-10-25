@@ -105,8 +105,7 @@ footer {
     background-color: lightgrey;
   }
   nav ul {
-    float: left;
-    width: 100%;
+    float: none;
     background-color: lightgrey;
   }
  .text-overlay {
