@@ -43,7 +43,7 @@ nav a {
   text-decoration: none;
   color: #000000;
 }
-nav ul li {
+nav ul {
 	background-color: lightgrey;
 }
 
@@ -103,12 +103,9 @@ footer {
     display: flex;
     justify-content: space-around;
     float: none;
-    width: 70%;
-    background-color: none;
+    width: 50%;
+    background-color: lightgrey;
   }
-nav ul li {
-	background-color: lightgrey;
-}
  .text-overlay {
 	 
 	 font-size: 40px;
