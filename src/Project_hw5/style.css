@@ -102,8 +102,8 @@ footer {
   nav {
     display: flex;
     justify-content: space-around;
-    float: none;
-    width: 50%;
+    float: left;
+    width: 100%;
     background-color: lightgrey;
   }
  .text-overlay {
