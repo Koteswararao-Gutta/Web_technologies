@@ -106,8 +106,17 @@ footer {
     justify-content: space-around;
   }
 .products {
-  width: 40px;
+  width: 100%;
 }
+  .product img {
+    width:100%;
+  }
+  .product h3 {
+    width:100%;
+  }
+  .product p{
+    width:100%;
+  }
   .product {
     width: 100%; /* On smaller screens, make each product occupy the full width */
   }
