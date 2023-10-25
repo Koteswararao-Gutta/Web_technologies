@@ -120,5 +120,6 @@ footer {
   }
   .product {
     width: 100%; /* On smaller screens, make each product occupy the full width */
+    grid-template-columns: repeat(1, 1fr);
   }
 }
