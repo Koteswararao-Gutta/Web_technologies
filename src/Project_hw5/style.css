@@ -21,11 +21,11 @@ header {
 }
 
 nav {
-  padding:3px;
+  font-size: 50px;
   display: flex; /* Use Flexbox for the navigation bar */
   justify-content: space-between;
   float: right;
-  width: 65%;
+  width: 60%;
 }
 
 nav ul {
