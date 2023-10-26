@@ -9,6 +9,7 @@ header {
   background-color: #000000;
   color: #ffffff;
   text-align: left;
+  padding: 3px;
 }
 
 /* Navigation Styles */
@@ -16,14 +17,16 @@ header {
   background-color: #000000;
   color: #ffffff;
   text-align: left;
+  padding: 3px;
 }
 
 nav {
-  font-size: 10px;
+  font-size: 20px;
   display: flex; /* Use Flexbox for the navigation bar */
   justify-content: space-between;
   float: right;
   width: 60%;
+  margin-top: 0px;
 }
 
 nav ul {
