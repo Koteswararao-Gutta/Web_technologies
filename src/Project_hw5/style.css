@@ -33,7 +33,6 @@ nav ul {
   list-style-type: none;
   display: flex; /* Make the list items flex containers */
   margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 nav li {
