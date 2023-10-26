@@ -107,7 +107,9 @@ footer {
     position: relative;
     display: inline-block;
 }
-
+.bi bi-three-dots-vertical {
+	color: white;
+}
 .dropdown-content {
     display: none;
     position: absolute;
