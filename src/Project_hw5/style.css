@@ -25,7 +25,7 @@ nav {
   display: flex; /* Use Flexbox for the navigation bar */
   justify-content: space-between;
   float: right;
-  width: 73%;
+  width: 69%;
   margin-top: 0px;
 }
 
