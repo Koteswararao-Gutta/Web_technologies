@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 6 - Holy Grail Layout</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+
+  <header>    
+    <h1 class="title">Lab 6 - Holy Grail Layout</h1>
+  </header>
+
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main id="content">
+      <!-- Add Note-Taking App Section -->
+      <div class="notes">
+        <h2>My Notes</h2>
+        <ul id="notes-list"></ul>
+      </div>
+      <div class="note-form">
+        <h2>Add a Note</h2>
+        <form id="note-form">
+          <textarea id="note-content" placeholder="Enter your note"></textarea>
+          <button type="submit">Add Note</button>
+        </form>
+      </div>
+      <!-- End Note-Taking App Section -->
+    </main>
+
+    <aside id="advertisement">
+      <a href="https://www.amazon.com/" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/41w18a00lcL._AC_SY230_.jpg" alt="Advertisement">
+      </a>
+    </aside>
+  </div>
+
+<!-- ... (your existing HTML code) ... -->
+
+	<footer>
+	  <div class="addendum">
+		<h2>Addendum</h2>
+		<p>
+		  The objective of this lab was to create a webpage implementing the Holy Grail layout using CSS grid.
+		  Additionally, a Note-Taking feature was integrated, allowing users to create, edit, and delete notes.
+		</p>
+		<h3>Overview of the Solution</h3>
+		<p>
+		  The Holy Grail layout was achieved using CSS grid, creating a visually appealing and responsive design.
+		  The webpage consists of a header with a background image, a main content area containing a Note-Taking App,
+		  a sidebar menu, an advertisement section, and a footer.
+		</p>
+		<!-- Repeat for other sections if needed -->
+		<h3>Difficulties Encountered and Solutions</h3>
+		<ul>
+		  <li>
+			<strong>Background Image Styling:</strong>
+			<br>Difficulty: Ensuring the header background image does not compromise text readability.
+			<br>Solution: Adjusting background properties such as size, position, and text color to achieve a visually balanced header.
+		  </li>
+		  <!-- Repeat for other difficulties/solutions -->
+		</ul>
+	  </div>
+	</footer>
+
+
+  <script src="todo.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
