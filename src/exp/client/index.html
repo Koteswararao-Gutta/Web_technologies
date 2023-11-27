@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Message Board</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#create">Home</a></li>
+            <li><a href="#update">Specifications</a></li>
+            <li><a href="#delete">Contacts</a></li>
+        </ul>
+    </nav>
+	<h2>Create a Message</h2>
+    <div id="create">
+        <input type="text" id="createInput" placeholder="Enter your message">
+        <button id="createButton">Create</button>
+    </div>
+	<h2>Display all Message</h2>
+    <div id="read">
+        <div id="messageBoard"></div>
+    </div>
+    <div id="update">
+	<h2>Update a Message</h2>
+        <input type="number" id="updateIdInput" placeholder="Message ID">
+        <input type="text" id="updateTextInput" placeholder="New Message">
+        <button id="updateButton">Update</button>
+    </div>
+	<h2>Delete a Message</h2>
+    <div id="delete">
+        <input type="number" id="deleteIdInput" placeholder="Message ID">
+        <button id="deleteButton">Delete</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
