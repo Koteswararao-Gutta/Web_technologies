@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mad Libs Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Start Wars Mad Libs Generator</h1>
+        <form id="madLibForm">
+
+
+            <label for="Noun">Noun:</label>
+            <input type="text" id="Noun" name="Noun" required>
+
+            <label for="pronoun">Pronoun:</label>
+            <input type="text" id="pronoun" name="pronoun" required>
+
+            <label for="verb">Verb:</label>
+            <input type="text" id="verb" name="verb" required>
+
+            <label for="adverb">Adverb:</label>
+            <input type="text" id="adverb" name="adverb" required>
+
+            <label for="adjective">Adjective:</label>
+            <input type="text" id="adjective" name="adjective" required>
+            <label for="storySelect">Select Story:</label>
+            <select id="storySelect">
+                <option value="story1">Story 1</option>
+                <option value="story2">Story 2</option>
+            </select>
+            
+        </form>
+		<button type="button" onclick="generateMadLib()">Generate Mad Lib</button>
+        <div id="madLibResult"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
