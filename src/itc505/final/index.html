@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lights Out Game</title>
+</head>
+<body>
+    <h1 class="text-center title-header">___________Lights Out__________</h1>     
+        <div class="container">
+        	<div class="row">
+        		<div class="col-md-6 col-md-offset-3 animated fadeIn game-cont">
+        			<div class="row text-center">
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+					</div>
+					<div class="row text-center">
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+					</div>
+					<div class="row text-center">
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+					</div>
+					<div class="row text-center">
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+					</div>
+					<div class="row text-center">
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+	        			<div class="lightit"></div>
+        			</div>
+					<div class="new-game-container">
+						<button id="newGameBtn">New Game</button>
+						
+					</div>
+        			<div class="winner-cont">
+        				<div class="winner-msg">
+        					<h3>You won!</h3>
+        					<button class="btn btn-default reset-btn">Reset</button>
+        				</div>
+        			</div>
+        		</div>
+        		<div class="col-md-3">
+        			<div class="well how-to">
+        				<h3>How to play:</h3>
+        				<p>Click on any of them to turn it and the four direct neighboring lights off or on.</p>
+						<p><strong>Win by closing all the lights.</strong></p>
+						    <h1>Insights from Developing a JavaScript Puzzle Game</h1>
+							<h1>Addundum</h1>
+    <h2>1. Design and Initial Setup</h2>
+    <h3>Objective</h3>
+    <p>Creating an interactive grid-based puzzle game with toggleable cells.</p>
+    <h3>Creative Choice</h3>
+    <p>Chose a grid layout for simplicity and intuitive gameplay.</p>
+    <h3>Challenge</h3>
+    <p>Randomly initializing the grid while keeping the game engaging.</p>
+    <h3>Solution</h3>
+    <p>Implemented a probability-based approach for the initial state of the cells.</p>
+
+    <h2>2. Implementing Game Logic</h2>
+    <h3>Objective</h3>
+    <p>Developing main functionality: toggling cell states and their neighbors.</p>
+    <h3>Creative Choice</h3>
+    <p>Dynamic neighbor determination algorithm based on cell position.</p>
+    <h3>Challenge</h3>
+    <p>Identifying neighbors correctly for edge and corner cells.</p>
+    <h3>Solution</h3>
+    <p>Conditional checks to assign neighbors based on grid position.</p>
+
+    <h2>3. Interaction and Event Handling</h2>
+    <h3>Objective</h3>
+    <p>Effective user interaction handling and immediate feedback.</p>
+    <h3>Creative Choice</h3>
+    <p>Event listeners on each cell for state toggling and win condition check.</p>
+    <h3>Challenge</h3>
+    <p>Proper management of event listeners, especially when resetting the game.</p>
+    <h3>Solution</h3>
+    <p>Functionality to remove and reset event listeners during game reset.</p>
+
+    <h2>4. Win Condition and Game Reset</h2>
+    <h3>Objective</h3>
+    <p>Determining win condition and providing game reset option.</p>
+    <h3>Creative Choice</h3>
+    <p>Win condition as no cells 'on' and a reset button for new games.</p>
+    <h3>Challenge</h3>
+    <p>Efficient and responsive win check and correct game reset.</p>
+    <h3>Solution</h3>
+    <p>Implemented a `testWinner` function and a reset function for new games.</p>
+
+    <h2>5. User Interface Feedback</h2>
+    <h3>Objective</h3>
+    <p>Feedback to players on game status and actions.</p>
+    <h3>Creative Choice</h3>
+    <p>Simple UI element for win indication and visual feedback on clicks.</p>
+    <h3>Challenge</h3>
+    <p>Simple yet effective user feedback balance.</p>
+    <h3>Solution</h3>
+    <p>Basic display element for win message and CSS class toggles for feedback.</p>
+
+    <h2>6. Insights Gained</h2>
+    <ul>
+        <li>Importance of modular functions for complex game logic.</li>
+        <li>Efficient handling of DOM elements and event listeners is crucial.</li>
+        <li>Focus on simple, intuitive UI/UX design for player engagement.</li>
+        <li>Necessity of thorough testing, especially for edge cases.</li>
+    </ul>
+
+    <p>Overall, this project highlighted the significance of clear logic, effective user interaction, and efficient code structure. Future enhancements could include more complex mechanics and optimized performance for larger grids.</p>
+
+        			</div>
+        		</div>
+        	</div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
