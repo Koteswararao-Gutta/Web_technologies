@@ -121,6 +121,28 @@
         <li>Focus on simple, intuitive UI/UX design for player engagement.</li>
         <li>Necessity of thorough testing, especially for edge cases.</li>
     </ul>
+	<h1>Light Toggling Puzzle Game javascript Description</h1>
+
+    <h2>Initialization and Configuration</h2>
+    <p>The game sets a 5x5 grid, linking each grid cell to a DOM element within 'cellArray'. A winner dialogue 'winCont' is prepped in the DOM for victory announcements. Additionally, 'cellNeighborArray' meticulously tracks each cell's adjacent cells for game functionality.</p>
+
+    <h2>Neighbor Identification</h2>
+    <p>Each cell's neighbors are intelligently identified based on their grid position, ensuring accurate game dynamics. This mapping in 'cellNeighborArray' is crucial for determining which cells are affected by player actions.</p>
+
+    <h2>Game Start (start function)</h2>
+    <p>The 'start' function initiates the game by randomizing cell states and assigning 'lightClick' function to manage cell interactions, making the game engaging and unpredictable.</p>
+
+    <h2>Click Interaction (lightClick function)</h2>
+    <p>Interactive gameplay is at the heart of this function. Each cell click toggles the state of the selected cell and its neighbors, with a continuous check for winning conditions.</p>
+
+    <h2>Winning Condition (testWinner function)</h2>
+    <p>The 'testWinner' function is pivotal in declaring the game's end, checking if all cells are 'off'. It symbolizes the achievement and completion of the puzzle.</p>
+
+    <h2>Reset/New Game</h2>
+    <p>A reset button in the winner dialog and an external 'New Game' button allow players to restart or begin new challenges, enhancing replayability.</p>
+
+    <h2>Encapsulation</h2>
+    <p>The entire code is encapsulated within an IIFE, showcasing a sophisticated approach to JavaScript programming and ensuring a clean global namespace.</p>
 
     <p>Overall, this project highlighted the significance of clear logic, effective user interaction, and efficient code structure. Future enhancements could include more complex mechanics and optimized performance for larger grids.</p>
 
